@@ -1,14 +1,26 @@
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
 body{
     margin: 0;
+    padding: 0;
 }
+
+section{
+    padding: 40px 0;
+}
+
+
 
 /* hello area start */
 
 .hello-warp{
     display: flex;
 }
-img{
-    width: 100%;
+.half-width img{
+    width: 80%;
 }
 .half-width{
     width: 40%;
@@ -34,6 +46,35 @@ img{
     background-image: url(../img/header-bg.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100vw;
+    background-size: cover;
+    /* background-size: 100vw; */
     height: 100vh;
+}
+
+/* biography area start */
+.bio-wrap{
+    display: flex;
+}
+.bio-area{
+    background-image: url(../img/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+    /* background-size: 100vw; */
+    
+}
+/* .half-width img{
+    width: 80%;
+} */
+
+
+/* project area start */
+.project-wrap{
+    display: flex;
+    margin: 15px 150px;
+
+}
+.work-iteam img{
+    width: 88%;
 }
