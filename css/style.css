@@ -6,6 +6,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 section{
@@ -90,10 +91,14 @@ section{
     padding: 50px 100px;
     width: 45%;
     margin: auto;
-    border-radius: 15px;
+    border-radius: 30px;
     background-image: linear-gradient( #f12f70, #f12fb7);
 }
 #copy-right{
     text-align: center;
     color: gray;
+}
+
+.big-text{
+    font-size: 45px;
 }
